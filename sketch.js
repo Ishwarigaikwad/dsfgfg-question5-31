@@ -76,12 +76,12 @@ function mouseDragged(){
 }
 
 function mouseReleased(){
-    slingshotfly();
+    slingshot.fly();
     gameState = "launched";
 }
 
 function keyPressed(){
     if(keyCode === 32){
-       slingshot.attach(bird.body);
+      // slingshot.attach(bird.body);
     }
 }
